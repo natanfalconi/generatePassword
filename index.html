@@ -14,18 +14,37 @@
 
 <body>
     <header>
-        <img src="" alt="">
+        <img src="./public//lock.png" alt="">
         <h1>Lock Password</h1>
     </header>
 
-    <form>
-        <input type="text" name="" placeholder="Create password" id="password" readonly>
+    <main>
+        <form>
+            <input type="text" name="password" id="password" readonly>
 
-        <!-- <div class="content-button">
-            <a id="button" class="btn1" onclick="genPassword()">Gerar Senha</a>
-            <a id="button" class="btn2" onclick="copyPassword()">Copiar</a>
-        </div> -->
-    </form>
+            <div class="content-button">
+                <a id="button" class="btn1" onclick="genPassword()">Gerar Senha</a>
+                <a id="button" class="btn2" onclick="copyPassword()">Copiar</a>
+            </div>
+        </form>
+    </main>
+
+    <section id="content-info">
+        <div>
+            <h2>Senha segura</h2>
+            <p>Tente usar pelo menos 10 ou 12 caracteres. Uma senha forte é a principal barreira para evitar que a maioria de suas contas on-line sejam invadidas. </p>
+        </div>
+    </section>
+
+    <section id="content-info">
+        <div>
+            <h2>Proteja seus dados</h2>
+            <p>Se você utilizar a mesma senha para acessar sua conta de email e sua conta bancária, um invasor precisará
+                roubar somente uma senha para ter acesso a ambas as contas.
+            </p>
+        </div>
+    </section>
+
 </body>
 
 <script src="index.js"></script>
