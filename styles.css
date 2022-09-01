@@ -112,3 +112,17 @@ form .content-button {
     align-items: center;
     justify-content: center;
 }
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+footer span {
+    font-size: 14px;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #000;
+}
